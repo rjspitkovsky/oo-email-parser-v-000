@@ -12,8 +12,7 @@ class EmailParser
   end
 
   def parse
-    @@emails.delete_at("")
-    @@emails
+    @@emails.select {|email| email != ""}
 
 
   end

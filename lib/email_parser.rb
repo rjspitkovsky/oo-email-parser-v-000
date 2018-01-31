@@ -13,7 +13,7 @@ class EmailParser
   end
 
   def parse
-    @@emails.uniq
+    @@emails.join.uniq
 
   end
 

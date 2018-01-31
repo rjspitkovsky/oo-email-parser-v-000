@@ -8,7 +8,7 @@ class EmailParser
   @@emails = []
 
   def initialize(emails)
-    @@emails << emails.split(",").join
+    @@emails << emails.split(",").join(" ")
   end
 
   def parse

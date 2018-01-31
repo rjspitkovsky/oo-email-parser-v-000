@@ -12,7 +12,7 @@ class EmailParser
   end
 
   def parse
-    @@emails.select {|email| email != ""}
+    @@emails.select {|email| email != ""}.uniq 
 
 
   end

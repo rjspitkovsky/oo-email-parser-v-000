@@ -12,10 +12,10 @@ class EmailParser
   end
 
   def parse
-    if @@emails.include?("")
-      @@emails.delete_at("")
-    end
-    @@emails 
+    # if @@emails.include?("")
+    #   @@emails.delete_at("")
+    # end
+    @@emails
 
 
   end

@@ -16,7 +16,7 @@ class EmailParser
     @@emails.each do |email|
       array << email
     end
-    array 
+    array.join 
 
   end
 

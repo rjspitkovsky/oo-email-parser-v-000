@@ -12,10 +12,10 @@ class EmailParser
   end
 
   def parse
-    array = [] 
+    array = []
     @@emails.each do |email|
-      array << email 
-    end 
+      array << email
+    end
     array 
 
   end
